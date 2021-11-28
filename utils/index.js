@@ -27,12 +27,12 @@ const questions = () =>  {
         },
         {
             type: 'input',
-            message: 'Please provide instructions and examples of your project in use for the Usage section.',
+            message: 'Please provide instructions and examples of your project in use for the usage section.',
             name: 'usage'
         },
         {
             type: 'input',
-            message:  'Give guidelines on how other developers can contribute to your project.',
+            message:  'Give guidelines on how other developers can contribute to your project and add the contributors to this project.',
             name: 'contributing'
         },
         {
@@ -58,7 +58,7 @@ const questions = () =>  {
 
 // TODO: Create a function to write README file
 const writeToFile = data => {
-    fs.writeFile('README.md', data, err => {
+    fs.writeFile('EXAMPLEREADME.md', data, err => {
         if (err) {
             console.log(err);
             return;
