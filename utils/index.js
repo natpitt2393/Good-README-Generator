@@ -1,8 +1,11 @@
-// TODO: Include packages needed for this application
+// These are the required modules needed to generate the README file
+// Inquirer is needed so that the program can prompt questions that the user will answer. The inputted answers will be generated using template literals for the README
 const inquirer = require('inquirer');
 const fs = require('fs');
+// Not sure why the generate markdown relative path caused a compiler error. Had to use this code in order for the program to function properly
 const generateMarkdown = require('./generateMarkdown');
-// TODO: Create an array of questions for user input
+
+// Instead of just having an array, I created a function for the questions that will be called for the init function
 const questions = () =>  {
     return inquirer.prompt([
         {
@@ -56,7 +59,7 @@ const questions = () =>  {
     )
 }
 
-// TODO: Create a function to write README file
+// This is the code that will add all the user input 
 const writeToFile = data => {
     fs.writeFile('EXAMPLEREADME.md', data, err => {
         if (err) {
@@ -68,7 +71,7 @@ const writeToFile = data => {
     }) 
 }
 
-// TODO: Create a function to initialize app
+// This is the function that when executed will create the README file
 const init = () => {
     questions()
     .then(userInput => {
