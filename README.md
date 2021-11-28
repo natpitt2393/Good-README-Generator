@@ -11,6 +11,8 @@
   * [License](#license)
   * [Bugs](#bugs)
   * [Questions](#questions)
+  * [Media](#media)
+
   
   ## Installation 
   The user must first install node. After that the user will also install the inquirer module. Without the inquirer module, the program will not be able to prompt the user with questions.
@@ -28,5 +30,7 @@
   ## Questions
   If you have any questions about this projects, please contact me directly at nathaniel.epstein@gmail.com. You can view more of my projects at https://github.com/natpitt2393.
 
+  ## Media
   ![Good-README-Generator](./Nat-Epstein-tutorial.gif)
-  ![Good-README-Generator](./Nat-Epstein-tutorial.png)
+  ![Good-README-Generator](./Screenshot-tutorial.png)
+  [napitt2393/Good-README-Generator](https://github.com/natpitt2393/Good-README-Generator)
