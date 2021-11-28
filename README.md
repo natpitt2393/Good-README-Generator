@@ -10,7 +10,6 @@
   * [Tests](#tests)
   * [License](#license)
   * [Bugs](#bugs)
-  * [Screenshots/Videos](#screenshot/videos)
   * [Questions](#questions)
   
   ## Installation 
@@ -25,9 +24,9 @@
   This project is license under MIT License
   ## Bugs
   Was not able to get badges to display.
-  ## Screenshots/Videos
-  ![Good-README-Generator] (./Nat-Epstein-tutorial.gif)
-  ![Good-README-Generator] (./Screenshot-tutorial.png)
 
   ## Questions
   If you have any questions about this projects, please contact me directly at nathaniel.epstein@gmail.com. You can view more of my projects at https://github.com/natpitt2393.
+
+  ![Good-README-Generator](./Nat-Epstein-tutorial.gif)
+  ![Good-README-Generator](./Nat-Epstein-tutorial.png)
