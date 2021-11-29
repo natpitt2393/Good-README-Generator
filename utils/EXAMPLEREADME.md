@@ -1,5 +1,5 @@
 # Good README Generator
-  ![Github licence](http://img.shields.io/badge/license-Mozilla Public License 2.0-blue.svg)
+  ![Github license](http://img.shields.io/badge/license-Mozilla Public License 2.0-blue.svg)
   
   ## Description 
   The goal of this project is to allow users to generate a professional README file. The user will need node.js and the inquirer npm in order to successfully generate the README file. Inquirer module prompts the user with several questions concerning the creation of the project.
