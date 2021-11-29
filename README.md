@@ -21,7 +21,7 @@
   ## Contributing 
   They can add more conditional statements to check for invalid responses. Nathaniel Epstein.
   ## Tests
-  npm test
+  N/A
   ## License 
   This project is license under MIT License
   ## Bugs
