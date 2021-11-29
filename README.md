@@ -1,5 +1,5 @@
 # Good README Generator
-  ![Github licence](http://img.shields.io/badge/license-MIT License-blue.svg)
+  ![Github license](http://img.shields.io/badge/license-MIT License-blue.svg)
   
   ## Description 
   The goal of this project is to have users be able to generate professional README files. The user will be prompted several questions using the inquirer module. After the answers have been submitted a README file will be generated!
